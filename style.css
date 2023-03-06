@@ -1,0 +1,73 @@
+.card{
+    width: 550px;
+    height: 295px;
+    background:radial-gradient(#0063FF, #0055DC);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 10px 3px 10px rgba(128, 128, 128, 0.156);
+}
+
+.card::after{
+    content: "";
+    height: 500px;
+    width: 500px;
+    background-color: #49B1FF;
+    position: absolute;
+    right: -200px;
+    top: -10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+}
+
+.card img{
+    position: absolute;
+    z-index: 999;
+    bottom: 30px;
+    width: 130px;
+}
+
+.balance{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    line-height: 1px;
+    letter-spacing: 2px;
+}
+
+.text{
+    color: #A2C8FB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3F6FA;
+}
+
+
+.container{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+
+}
+
+*{
+    margin: 0;
+
+}
